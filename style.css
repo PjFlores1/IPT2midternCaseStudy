@@ -190,3 +190,79 @@ body {
     width: 350px;
 
 }
+
+.hobbies{
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    position: absolute;
+
+}
+
+.hobbies .hobbs{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    
+}
+
+.hobbies .h2{
+    position: absolute;
+    top: 200px;
+    font-size: 100px;
+    border: 10px solid;
+    border-radius: 5pxs;
+}
+
+.hobbies .ml{
+    position: absolute;
+    left: 200px;
+}
+.hobbies .val{
+    position: absolute;
+    left: 635px;
+}
+
+.hobbies .rc{
+    position: absolute;
+    left: 1010px;
+}
+
+.hobbies .croc{
+    position: absolute;
+    left: 1390px;
+}
+
+.hobbies .mo{
+    width: 20vw;
+    box-shadow: 0 0 50px aqua;
+    border: 5px solid;
+}
+
+.hobbies .va{
+    width: 20vw;
+    box-shadow: 0 0 50px aqua;
+    border: 5px solid;
+}
+
+.hobbies .two{
+    width: 17vw;
+    box-shadow: 0 0 50px aqua;
+    border-radius: 10%;
+    border: 5px solid;
+}
+
+.hobbies .cu{
+    width: 17vw;
+    box-shadow: 0 0 50px aqua;
+    border-radius: 10%;
+    border: 5px solid;
+}
+
+.hobbies .cro{
+    width: 17vw;
+    box-shadow: 0 0 50px aqua;
+    border-radius: 10%;
+    border: 5px solid;
+}
