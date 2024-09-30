@@ -50,3 +50,143 @@ body {
 .navbar a:hover {
     color:antiquewhite
 }
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+    max-width: 600px;
+
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(29, 211, 211);
+}
+
+.home-content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+    text-align: justify;
+}
+
+.home-content .socials{
+    position: absolute;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.socials a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #00f0f0;
+    border-radius: 100px;
+    color: #00f0f0;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.socials a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #00f0f0;
+    z-index: -1;
+    transition: .5s;
+    border-radius: 100px;
+}
+
+.socials a:hover{
+    color: rgb(0, 0, 0);
+}
+.socials a:hover::before{
+    width: 100%;
+
+}
+
+.image{
+    border-radius: 50%;
+
+}
+.image .ian{
+    position: relative;
+    top: 3rem;
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: 0 0 50px aqua;
+    transition: 0.4s ease-in-out;
+    left: 300px;
+    border: 8px solid antiquewhite;
+
+}
+
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    border: 40px solid;
+}
+
+.about .imgme .im{
+    position: absolute;
+    top: 1170px;
+    border-radius: 7%;
+    box-shadow: 0 0 50px aqua;
+    background-color: #001b1b;
+    left: 230px;
+    height: 550px;
+    
+}
+.about .me{
+    left: 1450px;
+    position: absolute;
+    top: 1180px;
+    font-size: 100px;
+    
+}
+
+.about .details{
+    left: 1010px;
+    position: absolute;
+    top: 1170px;
+    border: 10px solid;
+    padding: 0 15px;
+
+
+}
+
+.about .dtwo{
+    left: 1380px;
+    position: absolute;
+    top: 1370px;
+    border: 10px solid;
+    padding: 0 15px;
+    height: 330px;
+    width: 350px;
+
+}
