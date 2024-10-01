@@ -172,3 +172,64 @@ body {
     top: 260px;
 
 }
+
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background-color: #87986A;
+    color: rgb(255, 255, 255);
+
+}
+
+.about .imgme .im{
+    position: absolute;
+    top: 1250px;
+    border-radius: 20%;
+    box-shadow: 0 0 50px aqua;
+}
+.about .me{
+    
+    position: absolute;
+    top: 1050px;
+    font-size: 100px;
+    right: 700px;
+    
+}
+
+.about .details{
+    top: 1250px;
+    position: absolute;
+    left: 560px;
+}
+
+.about .sh{
+    height: 500px;
+    width: 300px;
+    border-style: solid black;
+    box-shadow: 0 0 50px  #718355;
+    border: solid;
+    position: absolute;
+    padding: 30px;
+    border-radius: 5%;
+    background-color: #CFE1B9;
+    color: #718355;
+}
+
+.about .sh .fb{
+    position: relative;
+}
+
+.about .shap{
+    height: 500px;
+    width: 300px;
+    box-shadow: 0 0 50px  #718355;
+    left: 500px;
+    border: solid;
+    position: absolute;
+    padding: 30px;
+    border-radius: 5%;
+    background-color: #CFE1B9;
+    color: #718355;
+}
