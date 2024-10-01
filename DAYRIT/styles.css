@@ -233,3 +233,81 @@ body {
     background-color: #CFE1B9;
     color: #718355;
 }
+
+.hobbies{
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    position: absolute;
+    background-color: #B5c99A;
+
+}
+
+.hobbies .h2{
+    position: absolute;
+    top: 90px;
+    font-size: 80px;
+    max-width: 120px;
+    color: #718355;
+}
+
+.hobbies .hobbs{
+    position: absolute;
+    left: 350px;
+    top: 230px;
+    color: #718355;
+}
+
+.hobbies .gmg{
+    position: absolute;
+    left: 200px;
+}
+.hobbies .wa{
+    position: absolute;
+    left: 635px;
+}
+
+.hobbies .msc{
+    position: absolute;
+    left: 635px;
+    top: 290px;
+}
+
+.hobbies .pwp{
+    position: absolute;
+    left: 1070px;
+}
+
+.hobbies .mo{
+    width: 20vw;
+
+
+}
+
+.hobbies .gm{
+    width: 20vw;
+
+
+}
+
+.hobbies .w{
+    width: 20vw;
+
+
+}
+
+.hobbies .vy{
+    width: 20vw;
+
+
+}
+
+.hobbies .ca{
+    width: 10vw;
+
+}
+.hobbies .cat{
+    width: 10vw;
+
+}
